@@ -1,6 +1,7 @@
 body {
     margin: auto;
-    width: 90%;
+    width: 100%;
+    height: auto;
     padding-top: 100px;
     font-family: 'Comic Sans MS';
     background-color: black;
