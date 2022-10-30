@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Vow Ball</title>
+    <link href="StyleSheet1.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="JavaScript.js"></script>
+</head>
+
+<body>
+    <a class="ibutton" id="section" href="index.html">Home</a>
+    
+    <h1 class="center" id="shad">Slip It In</h1>
+   
+    <div id="area">
+        <h3>Every guest receives a phrase that they must attempt to slip into casual conversation without someone realizing that this is there “slip it in” phrase. After a person uses their phrase they must wait a while (to give others a chance to call them out) "Did You Slip It In"</h3>
+        <h4>Enter your initials to see your own unique phrase.... no cheating and looking at anyone elses phrase just cuz you know their initials</h4>
+        <div>
+            <form name= "myPhrase" id="siiPhrase" method="post" onsubmit="return siiPhraseOpen()">
+                <label for="initial">Initials</label> 
+                <input type="text" id="initialIn" name="initialIn"><br><br>
+                <input type="submit" value="Submit"><br> <br> 
+            </form>
+        </div>
+
+        <div>
+            <p1 id="phrase"></p1><br><br>
+            <p1 id="phrase2"></p1>
+        </div>
+    </div>
+</body>
+</html>
